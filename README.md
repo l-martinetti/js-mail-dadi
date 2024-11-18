@@ -32,7 +32,7 @@ MAIL
 
 1. Per cominciare avrò bisogno di un array che contenga gli indirizzi email che possono accedere, penso quindi di creare un array allowedEmails con qualche email facsimile che mi aiuti nel controllo di eventuali errori.
 2. A questo punto imposto una variabile let message; che andrò a modificare successivamente, e un prompt che chiederà di inserire la propria email.
-3. Userò quindi un if (prompt === allowedEmails) allora avrò un messaggio di di operazione andata a buon fine, altrimenti con un else un messaggio con risposta negativa.
+3. Userò quindi un if (allowedEmails.includes(askEmail)) allora avrò un messaggio di di operazione andata a buon fine, altrimenti con un else un messaggio con risposta negativa.
 
 GIOCO DEI DADI
 
